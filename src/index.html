@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Importing css styles -->
+    <link rel="stylesheet" href="./index.css" />
+    <title>NFT dApp</title>
+  </head>
+  <body>
+
+
+
+    <!-- Importing Ethers.js script -->
+    <script
+      src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"
+      type="application/javascript"
+    ></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Importing javascript file -->
+
+<button id="mint_balance" onclick="mint_nft()"> Add 1000 Tokens </button>
+<div> Total supply of cringe tokens: <span id="total_supply"> </span></div>
+<br>
+
+<div>
+Your balance: <span id="nft_balance"> </span> cringe tokens 
+</div>
+<h3> prices of all NFT-s are 500 tokens </h3>
+<div id="nft_0">NFT-0<button style="display:block" onclick="buyNFT(0)">Buy</button> name: <span class="name"> </span><br> description: <span class="description"></span><br> <img> <br><b><span class="owner"></span></b> <br>Link to NFT: <a target=”_blank”>Click</a></span><div>
+<br>
+<div id="nft_1">NFT-1<button style="display:block" onclick="buyNFT(1)">Buy</button> name: <span class="name"> </span> <br>description: <span class="description"></span><br> <img> <br><b><span class="owner"></span></b> <br>Link to NFT: <a target=”_blank”>Click</a></span><div>
+<br>
+<div id="nft_2">NFT-2<button style="display:block" onclick="buyNFT(2)">Buy</button> name: <span class="name"> </span><br> description: <span class="description"></span><br> <img> <br><b><span class="owner"></span></b> <br>Link to NFT: <a target=”_blank”>Click</a></span><div>
+<br>
+<div id="nft_3">NFT-3<button style="display:block" onclick="buyNFT(3)">Buy</button> name: <span class="name"> </span><br> description: <span class="description"></span><br> <img> <br><b><span class="owner"></span></b> <br>Link to NFT: <a target=”_blank”>Click</a></span><div>
+
+<script src="./index.js"></script>
+  </body>
+</html>
