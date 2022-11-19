@@ -1,8 +1,8 @@
-#Title: 
+# Title: 
 
 Blockchain NFT Project.
 
-#Installation/How to Deploy
+# Installation/How to Deploy
 
 
 Deploy contracts (Tazamat.sol and Cringe.sol) from REMIX IDE
@@ -12,13 +12,13 @@ Create ipfs links to json. Example: https://ipfs.filebase.io/ipfs/QmaNfH93CNokUC
 Call safeMint function of your Tazamat contract with to(storeAddress) and uri(example: 'ipfs://QmY5MFK47d6MpmW2StkK9ZupSSw6uRKA34nP16vTSqKdhH') to add NFT-s (up to 4)
 Run Apache or other program to create your server. Then use it to run index.html
 
-#Description/Usage
+# Description/Usage
 
 
 This site is made to buy ERC20 Tokens, then using this tokens buy NFT-s (ERC721)
 You can check total tokens, your balance, buy and sell NFT-s. To add NFT-s to the site you should firstly safeMint to your contract.
 
-#Technologies
+# Technologies
 
 
 SOLIDITY
